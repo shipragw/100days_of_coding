@@ -19,7 +19,5 @@ for num in range(0, nr_numbers):
 random.shuffle(password)
 #print(password)
 
-final_password = ""
-for items in password:
-    final_password += items
+final_password = "".join(password)
 print(f"Here's your new password: {final_password}")
